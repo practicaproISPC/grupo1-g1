@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Control de Stock Ricos Sabores</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <style>
+        input::-webkit-input-placeholder {
+            color:white;
+        }
+        input::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: white;
+        }
+        input:-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: rgb(185, 40, 40);
+        }
+        input:-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: rgb(185, 40, 40);
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" method="POST">
+        <div id="login-box">
+            <h1>Panel de Control de Stock- Ricos Sabores</h1>
+            <h2>Loguin </h2>
+            <div class="form">
+                <div class="item">
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                    <input type="text" placeholder="username" name="username">
+                </div>
+
+                <div class="item">
+                    <i class="fa fa-key" aria-hidden="true"></i>
+                    <input type="password" placeholder="password" name="password">
+                </div>
+            </div>
+            <button type="submit">Entrar</button>
+        </div>
+    </form>
+</body>
+
+<footer>
+    <div id="message-box">Ingrese sus credenciales de acceso</div>
+</footer>
+
+</html>
