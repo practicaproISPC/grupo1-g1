@@ -13,18 +13,25 @@ root{
     --fucsiaPaleta: #b3667e;         
     --cremaPaleta: #FCF5E3;          
 }
+body {
+    background: url("../img/12345_1.jpg") center;
+    background-size: 120% auto;
+    background-repeat: no-repeat;
+}
+
 body{
     font-family: var(--fuenteBase);
     font-weight: 500;
     color: var(--colorFB);
     background-color:var(--bcolorB);
 }
+
 h2{
 color: var(--colorFB);
 font-weight: 700;
 }
 h3{
-    color: var(--colorFB);
+    color: var(--colorFB);  
 }
 .btn{
 background-color: var(--bcolorNyV);
