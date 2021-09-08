@@ -1,0 +1,60 @@
+h1{
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+
+}
+
+h2{
+
+    font: bold 14px;
+}
+
+header, section,footer,aside,nav,article,hgroup{
+    display: block;
+
+}
+
+body{
+
+    text-align: center;
+
+}
+
+.agrupar{
+
+    width: 960px;
+    border: 1px solid black;
+    margin: 15px auto;
+}
+
+.header{
+    color: white;
+    background: red;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+.header h1{
+    text-align: right;
+}
+.menu{
+    background: #312f2f;
+    padding: 5px 25px;
+    text-align: left;
+
+}
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+
+}
+
+
+
+
+.pie{
+    border-top: 1px solid #1d393f; 
+    text-align: right;
+}
