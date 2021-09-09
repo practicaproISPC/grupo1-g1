@@ -15,6 +15,7 @@ create table Usuarios(
 	Apellido varchar(50) not null,
 	Nombre varchar(50) not null,
 	Apellido varchar(50) not null,
+	dni varchar(50) not null,
 	constraint fk_Usuarios foreign key (id_usuario) references NombreUsuario (id_usuario) 
 );
 
@@ -31,6 +32,8 @@ create procedure CrearUsuario
 	@email varchar(50),
 	@Nombre varchar(50),
 	@Apellido varchar(50)
+	@dni varchar(50)
+
 
 as
 	insert into Usuarios values ( @Usuario, @email, @Nombre, @Apellido, @id_Actividad)
