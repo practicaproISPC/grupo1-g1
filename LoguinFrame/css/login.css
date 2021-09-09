@@ -61,3 +61,6 @@ body {
     width: 100%;
     text-align: center;
 }
+#login-box a:hover {
+    color: #fff;
+  }
